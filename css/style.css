@@ -1,0 +1,41 @@
+.navbar-custom,
+.navbar-brand,
+.navbar-nav,
+.navbar-nav a,
+.navbar-toggler-icon {
+    color: #26206B;
+    font-size: large;
+    font-weight: bold;
+    border: 2px solid transparent;
+    /* Add initial transparent border */
+    padding: 10px;
+    /* Add padding for better visibility */
+    transition: color 0.3s ease, border 0.3s ease;
+    /* Add smooth transition effect for color and border */
+}
+
+.navbar-nav a:hover {
+    border-radius: 28%;
+
+    background-color: #9C91BC;
+}
+
+@media only screen and (max-width: 900px) {
+    .navbar-nav a:hover {
+        background-color: transparent !important;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Ukuran perangkat seluler kecil */
+    .kartu {
+        margin-left: 0 !important;
+        /* Menghapus margin sebelah kiri */
+    }
+}
+
+.our {
+    color: #007bff;
+    /* Warna biru kustom (warna biru primer dari Bootstrap) */
+}
