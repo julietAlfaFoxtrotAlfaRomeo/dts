@@ -1,0 +1,151 @@
+/* =========== TOPBAR =========== */
+.row1 {
+  background-color: #26206b;
+  color: aliceblue;
+}
+
+/* =========== NAVBAR =========== */
+.navbar-custom,
+.navbar-brand,
+.navbar-nav,
+.navbar-nav a,
+.navbar-toggler-icon {
+  color: #26206b;
+  font-size: large;
+  font-weight: bold;
+  border: 2px solid transparent;
+  /* Add initial transparent border */
+  padding: 10px;
+  /* Add padding for better visibility */
+  transition: color 0.3s ease, border 0.3s ease;
+  /* Add smooth transition effect for color and border */
+}
+
+.navbar-nav a:hover {
+  border-radius: 28%;
+  background-color: #9c91bc;
+}
+
+.btn-group {
+  margin-top: 30px;
+}
+
+.dropdown-menu {
+  border: 2px solid black;
+  width: 400px;
+  margin-left: -1rem;
+  border-radius: 10px;
+}
+
+/* =========== OUR BUSSINES =========== */
+.img-fluid1 {
+  margin-top: 60px;
+}
+
+/* =========== STATS =========== */
+.fact {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.251)),
+    url(/img/bgg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !;
+}
+
+.sisi {
+  display: flex;
+  justify-content: center; /* Untuk memusatkan isi */
+  gap: 20px; /* Jarak antara elemen */
+  height: 150px;
+}
+
+.text-container {
+  font-weight: bolder;
+}
+.sisi .text-container {
+  text-align: center; /* Pusatkan teks dalam kolom */
+}
+
+/* =========== PRODUCT =========== */
+.product {
+  display: ruby;
+}
+
+/* =========== MAP =========== */
+.map {
+  width: 100%;
+  height: auto;
+}
+
+/* =========== CONTACT =========== */
+.cntct {
+  margin-top: 70px;
+}
+
+.kontek {
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+.card-img-top1 {
+  height: auto;
+  width: 87px;
+}
+
+.card-title1 {
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  display: ruby;
+}
+
+.contact {
+  margin-bottom: 30px;
+}
+.contact-info {
+}
+
+.form {
+  border: 3px solid #26206b;
+  border-radius: 5px;
+  width: 100%;
+  margin-left: 550px;
+  margin-top: -195px;
+}
+
+/* =========== FOOTER =========== */
+.footer {
+  position: relative;
+  padding: 30px 0;
+  text-align: center;
+  background: #26206b;
+}
+
+.footer .copyright p {
+  color: #999999;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer .copyright p:last-child {
+  margin: 0;
+}
+
+/* ============================================ */
+/* ============== RESPONSIVE ================== */
+/* ============================================ */
+
+@media only screen and (max-width: 900px) {
+  .navbar-nav a:hover {
+    background-color: transparent !important;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Ukuran perangkat seluler kecil */
+  .kartu {
+    margin-left: 0 !important;
+    /* Menghapus margin sebelah kiri */
+  }
+}

@@ -1,3 +1,10 @@
+/* =========== TOPBAR =========== */
+.row1 {
+  background-color: #26206b;
+  color: aliceblue;
+}
+
+/* =========== NAVBAR =========== */
 .navbar-custom,
 .navbar-brand,
 .navbar-nav,
@@ -16,7 +23,6 @@
 
 .navbar-nav a:hover {
   border-radius: 28%;
-
   background-color: #9c91bc;
 }
 
@@ -31,26 +37,112 @@
   border-radius: 10px;
 }
 
-/* ============================= */
-/* --------- Footer CSS -------- */
-/* ============================= */
+/* =========== OUR BUSSINES =========== */
+.img-fluid1 {
+  margin-top: 60px;
+}
 
+/* =========== STATS =========== */
+.fact {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.251)),
+    url(/img/bgg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !;
+}
+
+.sisi {
+  display: flex;
+  justify-content: center; /* Untuk memusatkan isi */
+  gap: 20px; /* Jarak antara elemen */
+  height: 150px;
+}
+
+.text-container {
+  font-weight: bolder;
+}
+.sisi .text-container {
+  text-align: center; /* Pusatkan teks dalam kolom */
+}
+
+/* =========== PRODUCT =========== */
+.product {
+  display: ruby;
+}
+
+/* =========== MAP =========== */
+.map {
+  width: 100%;
+  height: auto;
+}
+
+/* =========== CONTACT =========== */
+.cntct {
+  margin-top: 70px;
+}
+
+.kontek {
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+.card1 {
+  display: flex;
+  align-items: center; /* Menengahkan secara vertikal */
+}
+
+.card-img-top1 {
+  height: auto;
+  width: 87px;
+}
+
+.card-title1 {
+  margin-left: 10px;
+  font-weight: bold;
+  text-align: center;
+  display: ruby;
+  
+}
+
+.contact {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.contact-info {
+  margin-top: 20px;
+}
+
+.form {
+  border: 3px solid #26206b;
+  border-radius: 5px;
+  width: 100%;
+  margin-left: 550px;
+  margin-top: -195px;
+}
+
+/* =========== FOOTER =========== */
 .footer {
-    position: relative;
-    padding: 30px 0;
-    text-align: center;
-    background: #26206B;
-  }
-  
-  .footer .copyright p {
-    color: #999999;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .footer .copyright p:last-child {
-    margin: 0;
-  }
+  position: relative;
+  padding: 30px 0;
+  text-align: center;
+  background: #26206b;
+}
+
+.footer .copyright p {
+  color: #999999;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer .copyright p:last-child {
+  margin: 0;
+}
+
+/* ============================================ */
+/* ============== RESPONSIVE ================== */
+/* ============================================ */
 
 @media only screen and (max-width: 900px) {
   .navbar-nav a:hover {
@@ -64,9 +156,4 @@
     margin-left: 0 !important;
     /* Menghapus margin sebelah kiri */
   }
-}
-
-.our {
-  color: #007bff;
-  /* Warna biru kustom (warna biru primer dari Bootstrap) */
 }
