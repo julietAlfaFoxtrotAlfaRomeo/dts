@@ -4,6 +4,10 @@
   color: aliceblue;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* =========== NAVBAR =========== */
 .navber {
   background-color: #e7e7e7 !important;
@@ -15,6 +19,7 @@
   width: 190px;
   height: auto;
 }
+
 .navbar-custom,
 .navbar-brand,
 .navbar-nav,
@@ -69,6 +74,7 @@
   display: flex;
   margin-top: 70px;
 }
+
 /* =========== OUR BUSSINES =========== */
 .img-fluid1 {
   margin-top: 120px;
@@ -88,16 +94,20 @@
 
 .sisi {
   display: flex;
-  justify-content: center; /* Untuk memusatkan isi */
-  gap: 20px; /* Jarak antara elemen */
+  justify-content: center;
+  /* Untuk memusatkan isi */
+  gap: 20px;
+  /* Jarak antara elemen */
   height: 150px;
 }
 
 .text-container {
   font-weight: bolder;
 }
+
 .sisi .text-container {
-  text-align: center; /* Pusatkan teks dalam kolom */
+  text-align: center;
+  /* Pusatkan teks dalam kolom */
 }
 
 /* =========== PRODUCT =========== */
@@ -123,7 +133,8 @@
 
 .card1 {
   display: flex;
-  align-items: center; /* Menengahkan secara vertikal */
+  align-items: center;
+  /* Menengahkan secara vertikal */
 }
 
 .card-img-top1 {
@@ -142,6 +153,7 @@
   margin-top: 80px;
   margin-bottom: 30px;
 }
+
 .contact-info {
   margin-top: 20px;
   margin-right: 5px;
@@ -183,6 +195,7 @@
 .bg-darki {
   background-color: #14183e !important;
 }
+
 .footer .btn.btn-social {
   margin-right: 5px;
   width: 40px;
@@ -282,6 +295,7 @@
 }
 
 @media (max-width: 768px) {
+
   /* Ukuran perangkat seluler kecil */
   .kartu {
     margin-left: 0 !important;
