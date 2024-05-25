@@ -1,0 +1,207 @@
+/* =========== TOPBAR =========== */
+.row1 {
+  background-color: #26206b;
+  color: aliceblue;
+}
+
+/* =========== NAVBAR =========== */
+.navber {
+  background-color: #e7e7e7 !important;
+  height: 120px !important;
+  z-index: 1000 !important;
+}
+
+.nvbrimg {
+  width: 190px;
+  height: auto;
+}
+.navbar-custom,
+.navbar-brand,
+.navbar-nav,
+.navbar-nav a,
+.navbar-toggler-icon {
+  color: #1b136d;
+  font-size: 20px !important;
+  font-weight: bold;
+  border: 2px solid transparent;
+  /* Add initial transparent border */
+  padding: 5px !important;
+  /* Add padding for better visibility */
+  transition: color 0.3s ease, border 0.3s ease;
+  /* Add smooth transition effect for color and border */
+  gap: 15px;
+  margin-left: 10px;
+}
+
+.navbar-nav a:hover {
+  border-radius: 20px !important;
+  border: 3px solid #443ab7;
+  background-color: #1b136d !important;
+  color: #e7e7e7;
+  font-size: 25px !important;
+  transition: ease-in-out 0.5s;
+}
+
+.btn-group {
+  margin-top: 30px;
+}
+
+.dropdown-menu {
+  border: 2px solid black;
+  width: 400px;
+  margin-left: -1rem;
+  border-radius: 10px;
+}
+
+/* =========== PRODUCT =========== */
+
+/*** Team ***/
+.team-item {
+  position: relative;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.07);
+}
+
+.team-item .btn {
+  border-color: transparent;
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.2);
+}
+
+/* =========== MAP =========== */
+.map {
+  width: 100%;
+  height: auto;
+}
+
+/* =========== FOOTER =========== */
+.footer {
+  position: relative;
+  padding: 30px 0;
+  text-align: center;
+  background: #26206b;
+}
+
+.footer .copyright p {
+  color: #999999;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer .copyright p:last-child {
+  margin: 0;
+}
+
+/* ====================================FOOTER BARU================================================ */
+/*** Footer ***/
+.footer {
+  background: url(../img/footer.png) center center no-repeat;
+  background-size: contain;
+}
+
+.bg-darki {
+  background-color: #14183e !important;
+}
+.footer .btn.btn-social {
+  margin-right: 5px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(256, 256, 256, 0.1);
+  border-radius: 40px;
+  transition: 0.3s;
+}
+
+.footer .btn.btn-social:hover {
+  color: var(--primary);
+}
+
+.footer .btn.btn-link {
+  display: block;
+  margin-bottom: 10px;
+  padding: 0;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: normal;
+  transition: 0.3s;
+}
+
+.footer .btn.btn-link:hover {
+  color: #ffffff;
+}
+
+.footer .btn.btn-link::before {
+  position: relative;
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+  letter-spacing: 1px;
+  box-shadow: none;
+}
+
+.footer .copyright {
+  padding: 25px 0;
+  font-size: 14px;
+  border-top: 1px solid rgba(256, 256, 256, 0.1);
+}
+
+.footer .copyright a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer .copyright a:hover {
+  color: #ffffff;
+}
+
+.footer .footer-menu a {
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer .footer-menu a:last-child {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
+}
+
+/* ======================================= contact us ================================================= */
+.cntctus {
+  color: #ffffff;
+  text-align: left;
+  margin-top: 30px;
+}
+/* ============================================ */
+/* ============== RESPONSIVE ================== */
+/* ============================================ */
+
+@media only screen and (max-width: 900px) {
+  .navbar-nav a:hover {
+    background-color: transparent !important;
+  }
+
+  /* ======================================= contact us ================================================= */
+  .cntctus {
+    color: #ffffff;
+    text-align: left;
+  }
+
+  .copyright a {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Ukuran perangkat seluler kecil */
+  .kartu {
+    margin-left: 0 !important;
+    /* Menghapus margin sebelah kiri */
+  }
+}
